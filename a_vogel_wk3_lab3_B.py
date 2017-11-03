@@ -1,0 +1,5 @@
+n = eval(input('Enter n: '))
+print(int((n - n%1000)/1000))
+print(int((n%1000 - n%100)/100))
+print(int((n%100 - n%10)/10))
+print(n%10)
